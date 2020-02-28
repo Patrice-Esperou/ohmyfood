@@ -1,0 +1,66 @@
+/*
+code stylisant header footer non surligne link
+placer dans un fichier a lui seul
+*/
+@import "briques.css";
+@import "briqueskitsm3.css";
+
+body{
+  margin: 0 0 0 0;
+  background-color: #f9f9f9;
+    
+     }
+section{
+	font-family: 'Dancing Script', cursive;
+  height: 900px;
+}
+h1 {
+
+  margin-top: 60px;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Dancing Script', cursive;
+
+  background: -webkit-linear-gradient(1deg, #0431df, #0887fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+h2{
+	  margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+	  color:black; 
+   }
+   
+.commencer p{
+	 font-size: 1.3em;
+    color: black;
+    margin-left: 200px;
+   
+}
+.continuer{
+    color: #a56799; 
+          }
+.continuer p{
+    font-size: 1.3em;
+    color: black;
+    margin-left: 200px;
+   }
+.continuer h2{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+   }
+.terminer{
+    color: black; 
+   }
+.terminer p{
+    font-size: 1.3em;
+    color: black;
+    margin-left: 200px;
+   }
+.terminer h2{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+   }

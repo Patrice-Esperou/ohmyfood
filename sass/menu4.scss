@@ -1,0 +1,40 @@
+/*
+code stylisant header footer non surligne link
+placer dans un fichier a lui seul
+*/
+@import"headerfooter";
+.bandeauhaut {
+  background: url("logomyfood.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: 140px;
+  background-color: #579c87; }
+
+a:link {
+  text-decoration: none; }
+
+div#footer {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 90px; }
+
+div#piedgauche {
+  width: 50%;
+  background-color: #579c87;
+  display: flex; }
+
+div#pieddroit {
+  width: 50%;
+  background-color: #579c87;
+  padding-left: 100px; }
+
+div#footer h4 {
+  font-size: 1.8em;
+  color: #fdcb46;
+  padding-left: 50px; }
+
+/*# sourceMappingURL=menu4.scss.map */

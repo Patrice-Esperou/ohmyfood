@@ -1,0 +1,64 @@
+
+
+
+
+@import"briques.css";
+@import"briqueskitsm2.css";
+body{
+  margin: 0 0 0 0;
+  background-color: #fff5fe;
+    }
+section{
+  height: 900px;
+}
+h1 {
+  margin-top: 60px;
+  text-align: center;
+  font-family: 'Croissant One', cursive;
+  font-size: 2em;
+  background: -webkit-linear-gradient(1deg, #d8852e, #905bfd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   }
+.poursemettre{
+    color: #d8852e;
+   }
+.poursemettre p{
+    font-size: 1.3em;
+    color: #d8852e;
+    margin-left: 200px;
+   }
+   .poursemettre h2{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #d8852e;
+   }
+   .plaisirs{
+    color: #a56799; 
+   }
+   .plaisirs p{
+    font-size: 1.3em;
+    color: #a56799;
+    margin-left: 200px;
+   }
+   .plaisirs h2{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+   }
+   .gourmandises{
+    color: #6e4ccc;
+   }
+  .gourmandises p{
+    font-size: 1.3em;
+    color: #6e4ccc;
+    margin-left: 200px;
+
+  }
+  .gourmandises h2{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+/*# sourceMappingURL=menu2.css.map */

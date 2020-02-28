@@ -1,0 +1,233 @@
+
+body{
+    margin: 0 0 0 0;
+
+    }
+.bandeauhaut {
+    
+    background-repeat: no-repeat;}
+
+#menu1, #menu2, #menu3, #menu4{
+    margin-top:5%;
+  
+    text-align:center; 
+    width:330px;
+    height: 430px;
+    border: 2.5px solid #EFEBE9;
+    }
+
+#menu1234{
+
+    margin-left:20%;margin-right:20%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+         }  
+
+
+.titremenu1, .texte1{
+
+ 
+ transform: scale(1);
+ transition:transform 0.6s ease-in-out;
+    &:hover{
+    transform: scaley(2.15) scalex(1.15);
+    opacity: 0.3;
+            }    
+}
+
+
+.titremenu2, .texte2, .titremenu3, .texte3, .titremenu4, .texte4{
+padding-top:40px;
+    cursor: pointer;
+    transform: scale(1);
+    transition:transform 0.6s ease-in-out;
+    &:hover{
+    transform: scaley(2.15) scalex(1.15);
+    opacity: 0.3;
+            }
+  }
+ 
+
+#menu1{
+    background-color: #fcdfdb;
+	   }
+#menu2{
+    background-color: #fff5fe;
+    }
+#menu3{
+
+    background-color: #f9f9f9;
+    } 
+#menu4{
+    background-color:  #fdfffd;
+    }
+
+.titremenu1{
+    font-size:3em;
+	font-family: 'Devonshire', cursive;
+    color:#3c1218;
+	          }
+.texte1{
+
+    font-family: 'Kalam', cursive;
+    color:#3c1218;
+    font-size:2em;
+    }
+.fa-itunes-note{
+padding-top:30%;
+     background: -webkit-linear-gradient(0.1deg, #f15861, #f78f6a);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-size:3em;
+               }
+.titremenu2 {
+	font-family: 'Croissant One', cursive;
+	font-size:1.6em;
+     background: -webkit-linear-gradient(72deg, #d8852e, #905bfd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+   
+ 
+    
+.texte2 {
+	color: #DC7633;font-size:3em;
+    }
+
+
+.titremenu3{
+	font-family: 'Dancing Script', cursive;
+	font-size:2em;
+    background: -webkit-linear-gradient(0.1deg, #0431df, #0887fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+            }
+    
+.texte3 {
+    font-family: 'Oregano', cursive;
+    color:#0887fb ;font-size:3em;
+    }
+
+#menu4{
+    background-color:  #fdfffd;
+	}
+.titremenu4{
+	font-family: 'Kaushan Script', cursive;
+	font-size:2.5em;
+    background: -webkit-linear-gradient(0.1deg, #3d9339, #bfff7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+            }
+    
+.texte4{
+	font-family: 'Oregano', cursive;
+	color: #72bf56 ;font-size:3em;
+       }
+
+div#article{
+    background-color: #579c87;
+    border-radius: 10px;
+    width: 500px;height: 52px;	
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12%;
+   }
+.prochainement {
+    font-size: 2em;
+	color: #fdcb46 ;
+    text-align:justify-content;
+    padding-top:6px;
+     }
+.point1
+{
+    animation: point1 3s infinite;
+}
+@keyframes point1 {
+0% { opacity: 1;
+}
+50% { opacity: 0;
+}
+100% { opacity: 0;
+}
+}
+.point2
+{
+    animation: point2 3s infinite;
+}
+@keyframes point2 {
+    0% { opacity: 0;
+    }
+    50% { opacity: 1;
+    }
+    100% { opacity: 0;
+    }
+}
+.point3
+{
+    animation: point3 3s infinite;
+}
+@keyframes point3 {
+    0% { opacity: 0;
+    }
+    50% { opacity: 0;
+    }
+    100% { opacity: 1;
+    }
+}
+.bandeauhaut {
+  background: url("logomyfood.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: 140px;
+  background-color: #579c87; }
+
+a:link {
+  text-decoration: none; }
+
+div#footer {
+
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 90px; }
+
+div#piedgauche {
+  width: 50%;
+  background-color: #579c87;
+  display: flex;
+  text-align:left;
+  padding-left:50px;
+   }
+
+div#pieddroit {
+  width: 50%;
+  background-color: #579c87;
+  text-align:right;
+  padding-right:50px;
+   }
+
+div#footer h4 {
+  font-size: 1.8em;
+  color: #fdcb46;
+   }
+
+
+#piedgauche h4:hover, #pieddroit h4:hover {
+     
+  animation: bounce 0.15s ease infinite alternate;
+       }   
+
+@keyframes bounce{
+      from {transform: translateY(0);}
+      to   {transform: translateY(-25px);}
+      }
+
+
+
