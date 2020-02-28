@@ -32,12 +32,12 @@ div#pieddroit {
   text-align: right;
   padding-right: 50px; }
 
-div#footer h4 {
+div#footer p {
   font-size: 1.8em;
   color: #fdcb46;
    }
 
-#piedgauche h4:hover, #pieddroit h4:hover {
+#piedgauche p:hover, #pieddroit p:hover {
   animation: bounce 0.15s ease infinite alternate; }
 
 @keyframes bounce {
