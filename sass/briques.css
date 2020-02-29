@@ -1,15 +1,19 @@
 header {
- 
+  margin: 0px 0px 0px 0px;
   background-image: no-repeat;
   text-align: center;
   width: 100%;
   height: 140px;
   background-color: #579c87; }
+body{margin: 0px 0px 0px 0px;}
 
   a:link {
-  text-decoration: none; }
+         text-decoration: none;
+         }
 
-
+footer{
+  font-family: none;
+}
 
 div#footer {
   background-color:#579c87; 

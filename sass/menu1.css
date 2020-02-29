@@ -6,26 +6,23 @@ placer dans un fichier a lui seul
 @import "briqueskitsm1.css";
 
 body {
-  margin: 0 0 0 0;
+     margin: 0 0 0 0;
      background-color: #fcdfdb;
      width:100%;
+     font-family: 'Sriracha', cursive;
+     color: #3c1219;
       }
-section{
-height: 900px;
-font-family: 'Sriracha', cursive; 
-color: #3c1218; 
-}
+.col2{width: 20%;}.col8{width: 80%;}.col10{width: 100%;}
 
-.container{
-  display:flex;
-}
+
 .proposition{
   display: flex;
-}
+            }
 
 
 
-.prix1, .prix{
+
+.prix{
   display: flex;
   width: 20%;
   font-size: 1.3em;
@@ -36,65 +33,40 @@ color: #3c1218;
   font-size: 1.3em;
   width: 80%; 
 }
-.col2{width: 20%;}.col8{width: 80%;}.col10{width: 100%;}
+
 
 .fa-music {
-   flex: 1;
-  background: -webkit-linear-gradient(0.1deg, #f15861, #f78f6a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 3em; 
+          flex: 1;
+          background: -webkit-linear-gradient(0.1deg, #f15861, #f78f6a);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+          font-size: 3em; 
           }
-#asidebas span{
-      flex: 1;
-      color: #3c1218;
-      font-size: 2.5em;
-      font-family: 'Sriracha', cursive;
-}
 
-#asidehaut {
+aside {
 margin-top: 60px;
   text-align: center;
-  font-family: 'Devonshire', cursive;
   font-size: 1.8em;
-  color: #3c1218; }
-p {
-  font-family: 'Sriracha', cursive;
-  color: #3c1218;
-  font-size: 1.7em;
-}
+   }
+
 h2 {
-  font-family: 'Sriracha', cursive;
-  color: #3c1218;
   font-size: 1.7em;
   text-align: center; 
 }
 
 
-.prelude h2{
-    margin-top: 60px;
-    margin-bottom: 40px;
-    text-align: center;
-    color: #3d1319;
-   }
-.mouvementfinal p{
-    font-size: 1.3em;
-    color: #3d1319;
-    margin-left: 200px;
-   }
-.mouvementfinal h2{
-    margin-top: 60px;
-    margin-bottom: 40px;
-    text-align: center;
-    color: #3d1319;
-   }
+
+
 #asidebas{
   text-align: center;
   margin-bottom: 150px;
   margin-top: 50px;
   padding-top: 0px;
-}
-
+         }
+#asidebas span{
+      flex: 1;
+      font-size: 2.5em;
+              }
 
 
 
