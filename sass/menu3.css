@@ -8,59 +8,40 @@ placer dans un fichier a lui seul
 body{
   margin: 0 0 0 0;
   background-color: #f9f9f9;
-    
-     }
-section{
-	font-family: 'Dancing Script', cursive;
-  height: 900px;
-}
-h1 {
-
-  margin-top: 60px;
-  text-align: center;
-  font-size: 3em;
   font-family: 'Dancing Script', cursive;
+  height: 1300px;
+    }
+.col2{width: 20%;}.col8{width: 80%;}.col10{width: 100%;}
 
-  background: -webkit-linear-gradient(1deg, #0431df, #0887fb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-}
-h2{
-	  margin-top: 60px;
-    margin-bottom: 40px;
-    text-align: center;
-	  color:black; 
+h1 {
+     text-align: center;
+     font-size: 3em;
+     background: -webkit-linear-gradient(1deg, #0431df, #0887fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
    }
-   
-.commencer p{
-	 font-size: 1.3em;
-    color: black;
-    margin-left: 200px;
-   
-}
-.continuer{
-    color: #a56799; 
+.proposition{
+  display: flex;
+            }
+.poursemettre, .choix, .prix{
+ color: black; 
           }
-.continuer p{
-    font-size: 1.3em;
-    color: black;
-    margin-left: 200px;
-   }
-.continuer h2{
+.prix, .prix1, .prix2{
+           display:flex;
+           width: 20%;
+           font-size: 1.4em;
+             }
+.choix, .choix1, .choix2{
+                     display: flex;
+                     margin-left: 200px;
+                     font-size: 1.4em;
+                     width: 80%; 
+                        }
+.commencer, .continuer, .terminer {
+    font-size: 1.5em;
     margin-top: 60px;
     margin-bottom: 40px;
     text-align: center;
-   }
-.terminer{
-    color: black; 
-   }
-.terminer p{
-    font-size: 1.3em;
-    color: black;
-    margin-left: 200px;
-   }
-.terminer h2{
-    margin-top: 60px;
-    margin-bottom: 40px;
-    text-align: center;
-   }
+    
+           }
+
