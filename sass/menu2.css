@@ -7,10 +7,9 @@
 body{
   margin: 0 0 0 0;
   background-color: #fff5fe;
+  height: 1200px;
     }
-section{
-  height: 900px;
-}
+.col2{width: 20%;}.col8{width: 80%;}.col10{width: 100%;}
 h1 {
   margin-top: 60px;
   text-align: center;
@@ -20,45 +19,46 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
    }
-.poursemettre{
-    color: #d8852e;
-   }
-.poursemettre p{
-    font-size: 1.3em;
-    color: #d8852e;
-    margin-left: 200px;
-   }
-   .poursemettre h2{
-    margin-top: 60px;
-    margin-bottom: 40px;
-    text-align: center;
-    color: #d8852e;
-   }
-   .plaisirs{
-    color: #a56799; 
-   }
-   .plaisirs p{
-    font-size: 1.3em;
-    color: #a56799;
-    margin-left: 200px;
-   }
-   .plaisirs h2{
-    margin-top: 60px;
-    margin-bottom: 40px;
-    text-align: center;
-   }
-   .gourmandises{
-    color: #6e4ccc;
-   }
-  .gourmandises p{
-    font-size: 1.3em;
-    color: #6e4ccc;
-    margin-left: 200px;
 
-  }
-  .gourmandises h2{
-    margin-top: 40px;
-    margin-bottom: 30px;
+.proposition{
+  display: flex;
+            }
+
+.poursemettre, .choix, .prix{
+ color: #d8852e; 
+}
+.plaisirs, .choix1, .prix1{
+ color:#a56799; 
+}
+.gourmandises, .choix2{
+ color: #6e4ccc; 
+}
+.prix, .prix1{
+           display:flex;
+           width: 20%;
+           font-size: 1.3em;
+             }
+
+.choix, .choix1, .choix2{
+                     display: flex;
+                     margin-left: 200px;
+                     font-size: 1.3em;
+                     width: 80%; 
+                        }
+.poursemettre, .plaisirs, .gourmandises {
+    margin-top: 60px;
+    margin-bottom: 40px;
     text-align: center;
-  }
+    
+           }
+   
+   
+  
+   
+  
+  
+  h2 {
+  font-size: 1.7em;
+  text-align: center; 
+}
 /*# sourceMappingURL=menu2.css.map */
