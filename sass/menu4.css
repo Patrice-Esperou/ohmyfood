@@ -1,11 +1,13 @@
-@import"briques.css";
+@import "briques.css";
+@import "briqueskitsm4.css";
+
 body{
   margin: 0 0 0 0;
+  font-family: 'Kaushan Script', cursive;
+height: 1300px;
 }
-section{
-	font-family: 'Kaushan Script', cursive;
-	 height: 900px;
-}
+.col2{width: 20%;}.col8{width: 80%;}.col10{width: 100%;}
+
 h1 {
   margin-top: 60px;
   text-align: center;
@@ -15,16 +17,24 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
    }
-.esquisse{
-    color: black; 
-   }
-   .esquisse p{
-    font-size: 1.3em;
-    color: black;
-    margin-left: 200px;
-   }
-   .esquisse h2{
+   .proposition{
+  display: flex;
+            }
+.prix, .prix1, .prix2{
+           display:flex;
+           width: 20%;
+           font-size: 1.4em;
+             }
+.choix, .choix1, .choix2{
+                     display: flex;
+                     margin-left: 200px;
+                     font-size: 1.4em;
+                     width: 80%; 
+                        }
+.esquisse, .maitre, .sommet {
+    font-size: 1.5em;
     margin-top: 60px;
     margin-bottom: 40px;
     text-align: center;
-   }
+    
+           }
