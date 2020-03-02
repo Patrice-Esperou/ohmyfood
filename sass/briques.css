@@ -1,21 +1,26 @@
+
+* {
+ margin:0;
+ padding:0;
+ }
+
 header {
-  margin: 0px 0px 0px 0px;
+  
   background-image: no-repeat;
   text-align: center;
   width: 100%;
   height: 140px;
   background-color: #579c87; }
-body{margin: 0px 0px 0px 0px;}
+
 
   a:link {
          text-decoration: none;
          }
 
-footer{
-  font-family: none;
-}
 
-div#footer {
+
+#footer {
+ font-family: none;
   background-color:#579c87; 
   display: flex;
   justify-content: space-between;
@@ -24,14 +29,15 @@ div#footer {
   width: 100%;
   height: 90px; 
            }
-div#footer p {
+footer p {
+   padding-top: 28px;
   font-size: 1.8em;
   color: #fdcb46;
   padding-left: 90px;
   padding-right: 90px;
              }
 
-#footer p:hover, #footer p:hover {
+footer p:hover{
   animation: bounce 0.15s ease infinite alternate; }
 
 @keyframes bounce {

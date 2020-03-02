@@ -12,6 +12,7 @@ body {
      font-family: 'Sriracha', cursive;
      color: #3c1219;
       }
+
 .col2{width: 20%;}.col8{width: 80%;}.col10{width: 100%;}
 
 
@@ -23,7 +24,7 @@ body {
 
 
 .prix{
-  display: flex;
+  display:flex;
   width: 20%;
   font-size: 1.3em;
 }

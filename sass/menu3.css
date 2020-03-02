@@ -13,7 +13,8 @@ body{
     }
 .col2{width: 20%;}.col8{width: 80%;}.col10{width: 100%;}
 
-h1 {
+h2 {
+     margin-top: 60px;
      text-align: center;
      font-size: 3em;
      background: -webkit-linear-gradient(1deg, #0431df, #0887fb);

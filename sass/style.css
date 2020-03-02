@@ -1,10 +1,6 @@
 @import "briques.css";
 
-body {
-  margin: 0 0 0 0; }
 
-.bandeauhaut {
-  background-repeat: no-repeat; }
 
 .fa-music {
   padding-top: 140px;
@@ -13,14 +9,14 @@ body {
   background: -webkit-linear-gradient(0.1deg, #f15861, #f78f6a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 1.1em; }
+  font-size: 3.5em; }
 
 #menu1, #menu2, #menu3, #menu4 {
   margin-top: 5%;
   text-align: center;
   width: 330px;
   height: 430px;
-  border: 2.5px solid #EFEBE9; }
+  border: 3.5px solid #EFEBE9; }
 #menu1 {
        background-color: #fcdfdb;
        }
@@ -48,43 +44,43 @@ body {
     opacity: 0.3; }
 
 
-.titremenu1 {
-  font-size: 2em;
-  font-family: 'Devonshire', cursive;
-  color: #3c1218; }
+
 .titremenu1 h2{
+  font-size:3.2em;
+ font-family: 'Devonshire', cursive;
   color:#3c1218; 
 }
 .titremenu1 p {
-  
+  font-size: 2em;
   font-family: 'Kalam', cursive;
   color: #3c1218;
-  font-size: 1.3em; }
+   }
 
 
-.titremenu2 {
+.titremenu2 h2{
   padding-top: 120px;
   font-family: 'Croissant One', cursive;
-  font-size: 1.05em;
-  background: -webkit-linear-gradient(72deg, #d8852e, #905bfd);
+  font-size: 1.6em;
+  background: linear-gradient(to right, #DC7633, #905bfd);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  -webkit-text-fill-color: transparent;
+   }
 .titremenu2 p {
   padding-top: 50px;
   color: #DC7633;
-  font-size: 2.9em; }
+   }
 
-.titremenu3 {
+.titremenu3 h2 {
   font-family: 'Dancing Script', cursive;
-  font-size: 1.6em;
+  font-size: 2.4em;
   padding-top: 120px;
-  background: -webkit-linear-gradient(0.1deg, #0431df, #0887fb);
+  background: linear-gradient(to right, #0431df 1%, #0887fb 40% );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 .titremenu3 p {
   font-family: 'Oregano', cursive;
   color: #0887fb;
-  font-size: 3.2em; }
+   }
 
 
 
@@ -92,14 +88,14 @@ body {
   font-family: 'Kaushan Script', cursive;
   font-size: 1.65em;
   padding-top: 110px;
-  background: -webkit-linear-gradient(0.1deg, #3d9339, #bfff7e);
+  background: linear-gradient(to right, #3d9339, #bfff7e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 .titremenu4 p  {
   padding-top: 14px;
   font-family: 'Oregano', cursive;
   color: #72bf56;
-  font-size: 2.65em; }
+   }
 
 aside{
   margin-top: 50px;
