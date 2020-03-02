@@ -1,9 +1,11 @@
 @import "briques.css";
-
+body{
+  height: 1350px;
+}
 
 
 .fa-music {
-  padding-top: 140px;
+  padding-top: 120px;
   padding-bottom: 0px;
   margin-bottom: 0px;
   background: -webkit-linear-gradient(0.1deg, #f15861, #f78f6a);
@@ -16,7 +18,10 @@
   text-align: center;
   width: 330px;
   height: 430px;
-  border: 3.5px solid #EFEBE9; }
+  border: 1px solid #EFEBE9;
+   box-shadow: 1px 1px 10px grey ;
+  
+   }
 #menu1 {
        background-color: #fcdfdb;
        }
@@ -51,14 +56,15 @@
   color:#3c1218; 
 }
 .titremenu1 p {
-  font-size: 2em;
+  margin-top: 20px;
+  font-size: 3.5em;
   font-family: 'Kalam', cursive;
   color: #3c1218;
    }
 
 
 .titremenu2 h2{
-  padding-top: 120px;
+  padding-top: 170px;
   font-family: 'Croissant One', cursive;
   font-size: 1.6em;
   background: linear-gradient(to right, #DC7633, #905bfd);
@@ -68,18 +74,21 @@
 .titremenu2 p {
   padding-top: 50px;
   color: #DC7633;
+  font-size: 3.85em;
    }
 
 .titremenu3 h2 {
   font-family: 'Dancing Script', cursive;
   font-size: 2.4em;
-  padding-top: 120px;
+  padding-top: 145px;
   background: linear-gradient(to right, #0431df 1%, #0887fb 40% );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 .titremenu3 p {
   font-family: 'Oregano', cursive;
+  padding-top: 45px;
   color: #0887fb;
+  font-size: 4.7em;
    }
 
 
@@ -87,35 +96,35 @@
 .titremenu4 {
   font-family: 'Kaushan Script', cursive;
   font-size: 1.65em;
-  padding-top: 110px;
+  padding-top: 140px;
   background: linear-gradient(to right, #3d9339, #bfff7e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 .titremenu4 p  {
-  padding-top: 14px;
+  padding-top: 45px;
   font-family: 'Oregano', cursive;
   color: #72bf56;
+  font-size: 2.65em;
    }
 
 aside{
   margin-top: 50px;
-}
-
-div#article {
-  background-color: #579c87;
-  border-radius: 10px;
-  width: 500px;
+  margin-bottom: 50px;
+background-color: #579c87;
+ border-radius: 10px;
+ width: 500px;
   height: 52px;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 12%;
-   }
+}
+
+
+
 
 .prochainement {
   font-size: 2em;
   color: #fdcb46;
-  text-align: justify-content;
+  text-align: center;
   padding-top: 6px; }
 
 .point1 {
@@ -148,8 +157,33 @@ div#article {
     opacity: 0; }
   100% {
     opacity: 1; } }
-
-
+/* adaptation pour les differentes tailles d'ecrans */
+@media (max-width: 599px)
+      {
+        body{
+            height: 1000px;
+            }
+        main{
+            flex-direction: column;
+            width: auto;
+            }
+       aside{
+            margin-top: 40px;
+            margin-bottom: 150px;
+            width: auto;
+            }
+     #footer{
+            justify-content: inherit;
+            height: 120px;
+            }
+    footer p{
+            padding-left: 60px;
+            }
+            #menu1, #menu2, #menu3, #menu4{
+             margin-top: 30px;
+             margin-bottom: 15px;
+            }
+     }
 
 
 
