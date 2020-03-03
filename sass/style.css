@@ -158,7 +158,7 @@ background-color: #579c87;
   100% {
     opacity: 1; } }
 /* adaptation pour les differentes tailles d'ecrans */
-@media (max-width: 599px)
+@media screen and(max-width: 599px)
       {
         body{
             height: 1000px;
