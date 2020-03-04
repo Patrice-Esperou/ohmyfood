@@ -17,27 +17,27 @@ header {
          text-decoration: none;
          }
 
-
-
 #footer {
  font-family: none;
   background-color:#579c87; 
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  position: sticky;
   bottom: 0;
   width: 100%;
   height: 90px; 
            }
-#footer a {
-     color: #fdcb46; 
-          }
-footer p{
+footer a {
+  color: #fdcb46;
+}
+footer p {
    padding-top: 28px;
-   font-size: 1.8em;
-   padding-left: 90px;
-   padding-right: 90px
-         }
+  font-size: 1.8em;
+  padding-left: 90px;
+  padding-right: 90px;
+             }
+
+
 
 #footer p:hover{
   animation: bounce 0.15s ease infinite alternate; }
