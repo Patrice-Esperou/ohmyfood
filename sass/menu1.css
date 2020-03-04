@@ -6,7 +6,7 @@ placer dans un fichier a lui seul
 @import "briqueskitsm1.css";
 
 body {
-     margin: 0 0 0 0;
+     
      background-color: #fcdfdb;
      width:100%;
      font-family: 'Sriracha', cursive;
@@ -14,7 +14,10 @@ body {
       }
 
 .col2{width: 20%;}.col8{width: 80%;}.col10{width: 100%;}
-
+.prelude, .pointdorgue, .mouvementfinal{
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
 
 .proposition{
   display: flex;
@@ -46,6 +49,7 @@ body {
 
 aside {
 margin-top: 60px;
+ margin-bottom: 60px;
   text-align: center;
   font-size: 1.8em;
    }
@@ -68,7 +72,6 @@ h2 {
       flex: 1;
       font-size: 2.5em;
               }
-
 
 
 
