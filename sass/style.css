@@ -10,7 +10,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3.5em; }
-
 #menu1, #menu2, #menu3, #menu4 {
   margin-top: 5%;
   text-align: center;
@@ -18,8 +17,7 @@
   height: 430px;
   border: 1px solid #EFEBE9;
    box-shadow: 1px 1px 10px grey ;
-  
-   }
+           }
 #menu1 {
        background-color: #fcdfdb;
        }
@@ -45,98 +43,88 @@
 .titremenu1:hover, .titremenu2:hover, .titremenu3:hover, .titremenu4:hover, .fa-music:hover {
     transform: scaley(1.15) scalex(1.15);
     opacity: 0.3; }
-
-
-
 .titremenu1 h2{
-  font-size:3.2em;
- font-family: 'Devonshire', cursive;
-  color:#3c1218; 
-}
+    font-size:3.2em;
+    font-family: 'Devonshire', cursive;
+    color:#3c1218; 
+               }
 .titremenu1 p {
-  margin-top: 20px;
-  font-size: 3.5em;
-  font-family: 'Kalam', cursive;
-  color: #3c1218;
-   }
-
-
+    margin-top: 20px;
+    font-size: 3.5em;
+    font-family: 'Kalam', cursive;
+    color: #3c1218;
+            }
 .titremenu2 h2{
-  padding-top: 170px;
-  font-family: 'Croissant One', cursive;
-  font-size: 1.6em;
-  background: linear-gradient(to right, #DC7633, #905bfd);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-   }
+    padding-top: 170px;
+    font-family: 'Croissant One', cursive;
+    font-size: 1.6em;
+    background: linear-gradient(to right, #DC7633, #905bfd);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+             }
 .titremenu2 p {
-  padding-top: 50px;
-  color: #DC7633;
-  font-size: 3.85em;
-   }
-
+   padding-top: 50px;
+   color: #DC7633;
+   font-size: 3.85em;
+             }
 .titremenu3 h2 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 2.4em;
-  padding-top: 145px;
-  background: linear-gradient(to right, #0431df 1%, #0887fb 40% );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.4em;
+    padding-top: 145px;
+    background: linear-gradient(to right, #0431df 1%, #0887fb 40% );
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; }
 .titremenu3 p {
-  font-family: 'Oregano', cursive;
-  padding-top: 45px;
-  color: #0887fb;
-  font-size: 4.7em;
-   }
-
-
-
+    font-family: 'Oregano', cursive;
+    padding-top: 45px;
+    color: #0887fb;
+    font-size: 4.7em;
+              }
 .titremenu4 {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 1.65em;
-  padding-top: 140px;
-  background: linear-gradient(to right, #3d9339, #bfff7e);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.65em;
+    padding-top: 140px;
+    background: linear-gradient(to right, #3d9339, #bfff7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+            }
 .titremenu4 p  {
-  padding-top: 45px;
-  font-family: 'Oregano', cursive;
-  color: #72bf56;
-  font-size: 2.65em;
-   }
-
+      padding-top: 45px;
+      font-family: 'Oregano', cursive;
+      color: #72bf56;
+      font-size: 2.65em;
+        }
 aside{
-  margin-top: 50px;
-  margin-bottom: 50px;
-background-color: #579c87;
- border-radius: 10px;
- width: 500px;
-  height: 52px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #579c87;
+    border-radius: 10px;
+    width: 500px;
+    height: 52px;
+    margin-left: auto;
+    margin-right: auto;
+      }
 .prochainement {
-  font-size: 2em;
-  color: #fdcb46;
-  text-align: center;
-  padding-top: 6px; }
-
+     font-size: 2em;
+     color: #fdcb46;
+     text-align: center;
+     padding-top: 6px; 
+               }
 .point1 {
-  animation: point1 3s infinite; }
+    animation: point1 3s infinite;
+        }
 
 @keyframes point1 {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
+    0% {
+      opacity: 1; }
+    50% {
+      opacity: 0; }
+    100% {
+      opacity: 0; } 
+                  }
 .point2 {
-  animation: point2 3s infinite; }
+   animation: point2 3s infinite;
+        }
 
 @keyframes point2 {
   0% {
@@ -144,17 +132,20 @@ background-color: #579c87;
   50% {
     opacity: 1; }
   100% {
-    opacity: 0; } }
+    opacity: 0; } 
+                 }
 .point3 {
-  animation: point3 3s infinite; }
+    animation: point3 3s infinite;
+        }
 
 @keyframes point3 {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
+    0% {
+      opacity: 0; }
+    50% {
+      opacity: 0; }
+    100% {
+      opacity: 1; }
+                }
 /* adaptation pour les differentes tailles d'ecrans */
 @media screen and (max-width: 599px)
       {
@@ -175,29 +166,31 @@ background-color: #579c87;
             margin-bottom: 60px;
             max-width: 100%;
             }
-      footer{justify-content: inherit;}
-   #footer p {font-size:1.3em;max-width: 100%;
+       footer{justify-content: inherit;
+             }
+       #footer p {font-size:1.3em;max-width: 100%;
               padding-left: 30px;padding-right: 30px;
-          }
-footer a {font-size: 1em;}
+            }
+       footer a {
+	         font-size: 1em;
+                }
             #menu1, #menu2, #menu3, #menu4{
              margin-top: 30px;
              margin-bottom: 15px;
             }
-     }
+       }
 @media screen and (min-width: 768px)and (max-width: 1024px)
 
-{
+ {
 	main{
 		margin: auto;
 		display: flex;
 		flex: 1;
-	}
-	#menu1234
-	{margin: 5%;
+	    }
+	#menu1234{
+	    margin: 5%;
 		display: flex;
-		
-	}
-}
+		     }
+ }
 
 /*# sourceMappingURL=style.css.map */
