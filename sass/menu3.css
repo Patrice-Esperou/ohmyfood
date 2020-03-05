@@ -6,7 +6,7 @@ placer dans un fichier a lui seul
 @import "briqueskitsm3.css";
 
 body{
-  margin: 0 0 0 0;
+ 
   background-color: #f9f9f9;
   font-family: 'Dancing Script', cursive;
   
@@ -46,3 +46,65 @@ h2 {
     
            }
 
+.querries{
+  display: none;
+   }
+   /* adaptation pour les differentes tailles d'ecrans */
+
+@media screen and (max-width: 599px){
+      .querries{
+         display: flex;
+         flex-direction: column;
+         max-width: 100%;
+         padding-left: 10%;
+         padding-right: 10%;
+               }
+      .querries p{
+           padding-bottom: 25px;
+           font-size: 1.3em;
+           max-width: 100%
+            }
+      .proposition, .col10{
+          display:none ;
+          }
+       footer{
+           justify-content: inherit;
+          
+        margin-top: 55px;
+      }
+             }
+       #footer p {
+           font-size:1.3em;max-width: 100%;
+           padding-left: 30px;padding-right: 30px;
+              }
+       footer a {
+           font-size: 1em;
+                }
+      .poursemettre, .plaisirs, .gourmandises{
+                font-size: 1.5em;
+                 }
+      h2 {
+        font-size: 2.5em;
+         }
+                                    }
+
+@media screen and (min-width: 768px)and (max-width: 1024px){
+      .querries{
+         display: flex;
+         flex-direction: column;
+         max-width: 100%;
+         padding-left: 80px;
+         padding-right: 40px;
+            }
+      .querries p{
+         padding-bottom: 15px;
+         font-size: 1.3em;
+           max-width: 100%
+         }
+      .proposition, .col10{
+         display:none ;
+           }
+      footer{
+        margin-top: 55px;
+      }
+          }
