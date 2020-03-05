@@ -55,12 +55,20 @@ h2  {
 /* adaptation pour les differentes tailles d'ecrans */
 
 @media screen and (max-width: 599px){
+   h1 img{
+          max-width: 80%;
+        }
+  header{
+          max-width: 100%;
+          height: 90px;
+        }
       .querries{
          display: flex;
          flex-direction: column;
          max-width: 100%;
          padding-left: 10%;
          padding-right: 10%;
+         font-size: 1.5em;
                }
       .querries p{
            padding-bottom: 25px;
@@ -79,7 +87,7 @@ h2  {
            font-size: 1em;
                 }
       .poursemettre, .plaisirs, .gourmandises{
-                font-size: 1.3em;
+                font-size: 1.5em;
                  }
       h2 {
         font-size: 1.9em;
