@@ -9,7 +9,7 @@ body{
   margin: 0 0 0 0;
   background-color: #f9f9f9;
   font-family: 'Dancing Script', cursive;
-  height: 1300px;
+  
     }
 .col2{width: 20%;}.col8{width: 80%;}.col10{width: 100%;}
 
@@ -17,7 +17,7 @@ h2 {
      margin-top: 60px;
      text-align: center;
      font-size: 3em;
-     background: -webkit-linear-gradient(1deg, #0431df, #0887fb);
+     background: linear-gradient(to right, #1f3cdd 1%, #0889fb 40%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
    }
