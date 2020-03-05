@@ -5,12 +5,10 @@ placer dans un fichier a lui seul
 @import "briques.css";
 @import "briqueskitsm1.css";
 
-body {font-family: 'Julee', cursive;
-
-     
+body {
+  font-family: 'Julee', cursive;
      background-color: #fcdfdb;
      width:100%;
-     
      color: #3c1219;
       }
 
@@ -23,9 +21,6 @@ body {font-family: 'Julee', cursive;
 .proposition{
   display: flex;
             }
-
-
-
 
 .prix{
   display:flex;
@@ -85,13 +80,11 @@ h2 {
 .querries{
   display: flex;
   flex-direction: column;
-  
-  max-width: 100%;
+   max-width: 100%;
   padding-left: 10%;
   padding-right: 10%;
 }
 .querries p{
-  
   padding-bottom: 25px;
 }
 .proposition, .col10{
@@ -110,17 +103,16 @@ h2 {
 .querries{
   display: flex;
   flex-direction: column;
-  
   max-width: 100%;
   padding-left: 80px;
   padding-right: 40px;
 }
 .querries p{
-  
   padding-bottom: 25px;
 }
 .proposition, .col10{
     display:none ;
   }
+
 }
 /*# sourceMappingURL=menu1.css.map */
