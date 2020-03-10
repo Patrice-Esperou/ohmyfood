@@ -6,13 +6,9 @@ placer dans un fichier a lui seul
 @import "briqueskitsm3.css";
 
 body{
- 
   background-color: #f9f9f9;
-  font-family: 'Dancing Script', cursive;
-  
+  font-family: 'Dancing Script', cursive;  
     }
-.col2{width: 20%;}.col8{width: 80%;}.col10{width: 100%;}
-
 h2 {
      margin-top: 60px;
      text-align: center;

@@ -4,8 +4,10 @@
 body{
   background-color: #fff5fe;
    }
-.col2{width: 20%;}.col8{width: 80%;}.col10{width: 100%;}
+
+
 h2  {
+  font-size: 2em;
   margin-top: 60px;
   text-align: center;
   font-family: 'Croissant One', cursive;
@@ -28,13 +30,13 @@ h2  {
 .prix, .prix1{
            display:flex;
            width: 20%;
-           font-size: 1.3em;
+           font-size: 1.5em;
              }
 .choix, .choix1, .choix2{
                      display: flex;
                      margin-left: 200px;
-                     font-size: 1.3em;
-                     margin-bottom: 50px;
+                     font-size: 1.5em;
+                     margin-bottom: 20px;
                      width: 80%; 
                         }
 .poursemettre, .plaisirs, .gourmandises{
@@ -42,16 +44,17 @@ h2  {
     margin-bottom: 60px;
     text-align: center;
     font-size: 1.5em;
+    flex: 1;
            }
- h2{
-     font-size: 2em;
-     text-align: center; 
-     }
+ 
 .querries{
   display: none;
    }
 
-
+.svg{display: flex;max-width: 100%;margin-left: 170px;margin-right: 170px;
+  
+}
+.svggauche, .svgdroit{flex: 1;}
 /* adaptation pour les differentes tailles d'ecrans */
 
 @media screen and (max-width: 599px){
@@ -87,7 +90,7 @@ h2  {
            font-size: 1em;
                 }
       .poursemettre, .plaisirs, .gourmandises{
-                font-size: 1.5em;
+                font-size: 1.3em;
                  }
       h2 {
         font-size: 1.9em;
