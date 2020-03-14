@@ -40,7 +40,8 @@ footer p {
 
 
 
-#footer p:hover{
+
+footer p:hover{
   animation: bounce 0.15s ease infinite alternate; }
 
 @keyframes bounce {
