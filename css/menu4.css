@@ -1,0 +1,110 @@
+@import "briques.css";
+@import "briqueskitsm4.css";
+body{
+   font-family: 'Caveat', cursive;
+   background-color: #fdfffd;
+   width: 100%;
+    }
+
+
+   .proposition {
+    font-size: 1.7em;
+    text-align: center;
+            }
+.proposition span{
+       text-align: center;
+                 }
+.proposition p {
+    width: 67%;
+   display: flex;
+   justify-content: space-between;
+   margin: auto;   
+      }
+.svg{display: flex;width: 70%;margin: auto; }
+.svg svg {width: 100%;display: flex;}
+.svggauche, .svgdroit{flex: 1;padding-top: 60px;}
+.esquisse, .maitre, .sommet {
+         font-size: 1.7em;
+         margin-top: 60px;
+         margin-bottom: 60px;
+         text-align: center;
+         }
+  aside{
+      margin-top: 60px;
+      text-align: center;
+      font-size: 2em;
+      font-family: 'Kaushan Script', cursive;
+      background: linear-gradient(to right, #3d9339 0%, #bfff7e );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+        }
+ .separator{
+      display: none;
+           }
+
+/* adaptation pour les differentes tailles d'ecrans */
+
+@media screen and (max-width: 767px){
+h1 img{
+   max-width: 80%;
+      }
+       header{
+          max-width: 100%;
+          height: 130px;
+        }
+      footer{
+           justify-content: inherit;
+             }
+       #footer p {
+           font-size:1.3em;max-width: 100%;
+           padding-left: 30px;padding-right: 30px;
+              }
+       footer a {
+           font-size: 1em;
+                }
+      .separator {flex-direction: column;display:inherit;}
+.proposition p{
+     flex-direction: column;
+      }
+      .poursemettre, .plaisirs, .gourmandises{
+                font-size: 1.3em;
+                 }
+.svggauche, .svgdroit{
+    padding-top: 70px;
+       }
+      h2 {
+        font-size: 1.9em;
+         }
+          }
+
+@media screen and (min-width: 768px)and (max-width: 1020px){
+.separator{
+    flex-direction: column;
+    display:inherit;
+     }
+.proposition p{
+  flex-direction: column;
+   }     
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
