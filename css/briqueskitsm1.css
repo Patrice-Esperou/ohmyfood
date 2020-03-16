@@ -1,7 +1,4 @@
-.prelude, .pointdorgue, {
-                 width: 100%;
-                 text-align: center;
-                        }
+
 .prelude span, .pointdorgue span, .mouvementfinal span{
           position:relative;
          text-decoration:none;
@@ -25,4 +22,4 @@
                }
 
 
-/* adaptation pour les differentes tailles d'ecrans */
+

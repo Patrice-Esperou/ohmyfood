@@ -15,12 +15,12 @@ body{
        text-align: center;
                  }
 .proposition p {
-    width: 67%;
+    width: 65%;
    display: flex;
    justify-content: space-between;
    margin: auto;   
       }
-.svg{display: flex;width: 70%;margin: auto; }
+.svg{display: flex;width: 80%;margin: auto; }
 .svg svg {width: 100%;display: flex;}
 .svggauche, .svgdroit{flex: 1;padding-top: 60px;}
 .esquisse, .maitre, .sommet {
@@ -34,7 +34,7 @@ body{
       text-align: center;
       font-size: 2em;
       font-family: 'Kaushan Script', cursive;
-      background: linear-gradient(to right, #3d9339 0%, #bfff7e );
+      background: linear-gradient(to right, rgba(61,147,57,1), rgba(191,255,126,1));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
         }
