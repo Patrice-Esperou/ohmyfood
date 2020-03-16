@@ -1,0 +1,23 @@
+.poursemettre span, .plaisirs span, .gourmandises span{
+  position:relative;
+  text-decoration:none;
+   }
+.poursemettre span:hover:before, .plaisirs span:hover:before, .gourmandises span:hover:before {  
+         -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+           }
+.plaisirs span:before, .gourmandises span:before, .poursemettre span:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  -webkit-transform: scaleX(0);
+  transform-origin: 0% 50%;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+    }
+.poursemettre span:before{background-color: #d8852e;}
+.plaisirs span:before{ background-color: #a56799;}
+.gourmandises span:before{background-color: #6e4ccc;}
